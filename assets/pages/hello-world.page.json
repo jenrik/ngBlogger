@@ -1,0 +1,6 @@
+{
+	"title": "ngBlogger",
+	"date": "00:12 13-02-2015",
+	"template": "templates/article.html",
+	"content": "markdown/hello-world.md"
+}

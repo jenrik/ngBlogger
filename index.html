@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="ngBlogger">
+	<head>
+		<meta charset="utf-8">
+		<meta name=description content="{{ data.description }}">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<title>{{ data.name }}</title>
+		<link rel="stylesheet" type="text/css" href="ng-blogger.min.css">
+	</head>
+	<body>
+		<script type="text/javascript" src="bower_components/markdown-it/dist/markdown-it.min.js"></script>
+		<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+		<script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
+		<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+		<script type="text/javascript" src="ng-blogger.min.js"></script>
+
+		<div ng-view></div>
+	</body>
+</html>
