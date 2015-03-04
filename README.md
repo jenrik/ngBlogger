@@ -1,17 +1,16 @@
 # ngBlogger
 
-ngBlogger is a blog system powered entirely by Markdown and Angular.js. It requires no server side processing other than the initial build, which can be gone before upload the site. ngBlogger work by loading up pages in the form of JSON, then renders them with of Markdown-it, and finnaly display them with help from Angular.js.
+ngBlogger is a blog system powered by Angular.js. It requires no server side processing other than the initial build process, which can be done before uploading the site. ngBlogger work by loading up pages in the form of JSON, then rendering a template on based on the loaded JSON. ngBlogger comes with build in support for markdown.
 
 # Setup
 
-Your create a new blog by cloning this repository and then configure it in the blogger.json file.
+Your create a new blog by cloning this repository and then configuring it in the `blogger.json` file.
 
 # Creating pages
 
 To create a new page you create a file any where in assets, with the extension .page.json and the following format:
 ```JSON
 {
-	"path": "",     // The url the page will live on, if not specified the url will be the path to the file relative to the assets folder
 	"template": "", // The url to the template
 	"content": ""   // The default option to specify the content of the page
 }
